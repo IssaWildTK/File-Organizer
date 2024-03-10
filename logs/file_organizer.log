@@ -1,0 +1,27 @@
+2024-03-10 14:01:42,180 - INFO - File organizer started.
+2024-03-10 14:01:42,180 - INFO - Would create folder: Presentations
+2024-03-10 14:01:42,180 - INFO - Would create folder: Images
+2024-03-10 14:01:42,182 - INFO - Would create folder: Databases
+2024-03-10 14:01:42,182 - INFO - Would create folder: Spreadsheets
+2024-03-10 14:01:42,182 - INFO - Would create folder: Scripts
+2024-03-10 14:01:42,182 - INFO - Would create folder: Data Science
+2024-03-10 14:01:42,182 - INFO - Would create folder: Compressed
+2024-03-10 14:01:42,182 - INFO - Would create folder: Backup
+2024-03-10 14:01:42,182 - INFO - Would create folder: Video
+2024-03-10 14:01:42,193 - INFO - Would create folder: Executables
+2024-03-10 14:01:42,193 - INFO - Would create folder: Audio
+2024-03-10 14:01:42,193 - INFO - Would create folder: Data
+2024-03-10 14:01:42,193 - INFO - Would create folder: Markdown
+2024-03-10 14:01:42,193 - INFO - Would create folder: Web
+2024-03-10 14:01:42,194 - INFO - Would create folder: Documents
+2024-03-10 14:01:42,194 - INFO - Would create folder: Disk Images
+2024-03-10 14:01:42,194 - INFO - Would create folder: Programming
+2024-03-10 14:01:42,194 - INFO - Would move .git to Others.
+2024-03-10 14:01:42,194 - INFO - Would move .gitignore to Others.
+2024-03-10 14:01:42,194 - INFO - Would move .idea to Others.
+2024-03-10 14:01:42,194 - INFO - Would move .venv to Others.
+2024-03-10 14:01:42,194 - INFO - Would move config.json to Data.
+2024-03-10 14:01:42,194 - INFO - Would move logs to Others.
+2024-03-10 14:01:42,195 - INFO - Would move organize.py to Programming.
+2024-03-10 14:01:42,195 - INFO - Would move test to Others.
+2024-03-10 14:01:42,195 - INFO - File organization complete.
