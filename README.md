@@ -31,6 +31,8 @@ Ensure you have Python 3.x installed on your system. This project does not requi
 
 ### Usage
 
+On first use, it is recommended to clear the log files (`clear-logs`) as there is a sample of the `--dry-run` output included if you would prefer to just view the functionality.  Please keep reading to learn more.
+
 To organize files in a directory, run the script with the path to the target directory:
     
     
