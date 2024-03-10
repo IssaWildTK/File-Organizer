@@ -25,40 +25,61 @@ Ensure you have Python 3.x installed on your system. This project does not requi
     ```
 2. Navigate to the project directory:
     
-        
-        cd File-Organizer
-   
+    ```bash
+    cd File-Organizer
+    ```
 
 ### Usage
 
 To organize files in a directory, run the script with the path to the target directory:
     
-    organize.py /path/to/directory
+    
+    python organize.py /path/to/directory
+    
 
+#### Using the Current Directory
+
+If you are already in the directory you wish to organize, you can use the `--cd` flag to use the current directory without specifying a path:
+    
+    
+    python organize.py --cd
+    
 
 #### Dry Run
 
 To simulate the organization process without making any changes:
-        
-        organize.py /path/to/directory --dry-run
-        
-
+    
+    
+    python organize.py /path/to/directory --dry-run
+    
+    
+Or, if using the current directory:
+    
+    
+    python organize.py --cd --dry-run
+    
 
 #### Custom Log Directory
 
 To specify a custom directory for logs:
-            
-            organize.py /path/to/directory --log-dir /path/to/log/directory
-            
-
+    
+    
+    python organize.py /path/to/directory --log-dir /path/to/log/directory
+    
 
 #### Clearing Log Files
 
 To clear existing log files:
-                   
-                 organize.py /path/to/directory --clear-log
-                 
+    
+    
+    python organize.py --clear-logs
+    
 
+This command can be combined with `--log-dir` if you are using a custom log directory and wish to clear logs from there:
+
+    
+    python organize.py --clear-logs --log-dir /path/to/custom/log/directory
+    
 
 ## Configuration
 
@@ -73,6 +94,9 @@ Example configuration:
   // Add more mappings as needed
 }
 ```
+
+Example configuration:
+
 #### Note: The default config.json file includes a comprehensive set of file extension-to-folder mappings designed to cover a wide range of file types. It's recommended to review and customize this file to fit your specific organizational needs and preferences. Tailoring the configuration ensures that the file organization process aligns closely with your unique workflow and directory structure.
 
 ## Contributing
